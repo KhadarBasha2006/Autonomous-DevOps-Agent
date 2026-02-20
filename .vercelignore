@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+
+# Backend files (we use api/ instead)
+backend/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build artifacts
+frontend/build/  # Will be built by Vercel
+
+# Documentation
+README.md
+VERCEL_DEPLOYMENT_PLAN.md
+TODO.md
+
+# Tests
+test.py
+**/test_*
+**/*_test.py
+**/tests/
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+Jenkinsfile
+
+# Misc
+*.log
+*.pyc
+__pycache__/
+*.DS_Store
+.env
+.env.local
