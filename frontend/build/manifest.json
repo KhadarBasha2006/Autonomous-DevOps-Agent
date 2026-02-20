@@ -1,0 +1,6 @@
+{
+  "short_name": "DevOps Agent",
+  "name": "Autonomous DevOps Agent",
+  "start_url": ".",
+  "display": "standalone"
+}
